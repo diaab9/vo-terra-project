@@ -1,0 +1,6 @@
+glue_job_name   = "mongo_to_s3_etl"
+s3_bucket_name  = "vo-glue-scripts"
+script_s3_path  = "s3://vo-glue-scripts/scripts/mongo_to_s3.py"
+glue_db_name    = "mongo_s3_db"
+crawler_name    = "mongo_s3_crawler"
+s3_output_path  = "s3://vo-glue-scripts/output/"
