@@ -39,10 +39,6 @@ end_date = datetime.now()
 start_date = end_date - timedelta(days=10)
 
 
-# # Define start and end date range
-# start_date = datetime(2023, 1, 1)
-# end_date = datetime.now()
-
 
 # Query to retrieve data for the specified date range
 query = {
@@ -325,4 +321,3 @@ s3.put_object(
 
 print(f"✅ Parquet file uploaded to S3://{s3_bucket_name}/{s3_key}")
 
-# Close the MongoDB connection
